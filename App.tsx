@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { generateRobotPitch, generateFakeReview } from './services/geminiService';
+
 import { RaffleForm } from './components/RaffleForm';
 import { FeatureCard } from './components/FeatureCard';
 import { PrankModal } from './components/PrankModal';
@@ -35,13 +35,9 @@ const App: React.FC = () => {
   const [targetDate, setTargetDate] = useState<Date>(new Date());
 
   useEffect(() => {
-    const initData = async () => {
-      const [pitchText, reviewText] = await Promise.all([
-        generateRobotPitch(),
-        generateFakeReview()
-      ]);
-      setPitch(pitchText);
-      setReview(reviewText);
+    const initData = () => {
+      setPitch("Nuestra tecnología trasciende los límites de la biología y la maquinaria, ofreciendo una simbiosis perfecta para el hogar moderno.");
+      setReview("Este robot no solo limpia, *comprende* la suciedad a un nivel existencial. Mi vida ha cambiado para siempre.");
       setAppState(AppState.LANDING);
     };
     initData();
