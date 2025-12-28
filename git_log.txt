@@ -1,1 +1,29 @@
 Reinitialized existing Git repository in C:/Users/home/Documents/poryectos-web/sorteo-neogenesis-bot/.git/
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Countdown.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FeatureCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PrankModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RaffleForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SpecsModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/geminiService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   git_log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+error: remote origin already exists.
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
